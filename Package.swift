@@ -41,18 +41,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/7.2.0/GoogleMaps.xcframework.zip",
-            checksum: "7468af4ac88a272270ae9b336d2b87f28bede5c1a2cf7b79d67608da8b0c2ffa"
+            url: "https://github.com/zlib/GoogleMaps-SPM/releases/download/7.4.0/GoogleMaps.zip",
+            checksum: "21121180e0de3cb6731c13c94b5545f8933d485606bb7673faf4727d4feeb890"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/7.2.0/GoogleMapsBase.xcframework.zip",
-            checksum: "76f2d3f2ca9f041cf3697b7979be937de8940b42f8bd7397309f144d8e7aa390"
+            url: "https://github.com/zlib/GoogleMaps-SPM/releases/download/7.4.0/GoogleMapsBase.zip",
+            checksum: "b3a2719a6d9d0ae355f609f94eed74505ad321d1c39dccc64384d7e65bbed419"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/YAtechnologies/GoogleMaps-SP/releases/download/7.2.0/GoogleMapsCore.xcframework.zip",
-            checksum: "77a2ae1d85e3b85c596dfe5416c106fda46846f48663cd0672b68a27362c8887"
+            url: "https://github.com/zlib/GoogleMaps-SPM/releases/download/7.4.0/GoogleMapsCore.zip",
+            checksum: "fc628281e3043483c87938cdb745a88fd0ce89dbc59c4c741a5aba2708add1a9"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
