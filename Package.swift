@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
@@ -56,12 +56,12 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/swensonhe/GoogleMaps-SP/releases/download/8.0.0/GoogleMapsM4B.zip",
+            url: "https://github.com/swensonhe/GoogleMaps-SPM/releases/download/8.0.0/GoogleMapsM4B.zip",
             checksum: "c5ff8aad5b4f80f69aec1bfe9352dbc148c3578deef1b1abc331cc574bdf5d3a"
         ),
         .binaryTarget(
             name: "GooglePlaces",
-            url: "https://github.com/swensonhe/GoogleMaps-SP/releases/download/8.0.0/GooglePlaces.zip",
+            url: "https://github.com/swensonhe/GoogleMaps-SPM/releases/download/8.0.0/GooglePlaces.zip",
             checksum: "0b111e3c64531808d2cf6601dc4042a79af46ed6a1a9ef120e188cf4cf0d4a82"
         )
     ]
